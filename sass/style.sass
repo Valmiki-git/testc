@@ -1,0 +1,46 @@
+*
+    box-sizing: border-box
+    
+@mixin flex
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.main_kv
+    @include flex
+    flex-direction: column
+    width: 300px
+    height: 300px
+    background-color: yellow
+    .kvr
+        @include flex
+        flex-direction: row
+        width: 300px
+        height: 150px
+        .kv
+            width: 140px
+            height: 140px
+            background-color: blue
+
+.box
+    display: flex
+    justify-content: center
+    align-items: center
+
+    width: 300px
+    height: 50px
+    background-color: #fff
+    border: solid green
+    border-radius: 30px
+    color: green
+    cursor: pointer
+    font-size: 20px
+    transition: 0.5s all
+    margin: 0 auto
+    box-sizing: border-box
+    &:hover
+        color: white;
+        background-color: green
+        border: solid white
+        width: 310px
+        height: 60px

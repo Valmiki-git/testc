@@ -1,0 +1,61 @@
+/* line 1, ../../../../../../../../../../../../../Users/vladimirkorobskij/Desktop/Sites/test.ru/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/vladimirkorobskij/Desktop/Sites/test.ru/sass/style.sass */
+.main_kv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+/* line 15, ../../../../../../../../../../../../../Users/vladimirkorobskij/Desktop/Sites/test.ru/sass/style.sass */
+.main_kv .kvr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 300px;
+  height: 150px;
+}
+
+/* line 20, ../../../../../../../../../../../../../Users/vladimirkorobskij/Desktop/Sites/test.ru/sass/style.sass */
+.main_kv .kvr .kv {
+  width: 140px;
+  height: 140px;
+  background-color: blue;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/vladimirkorobskij/Desktop/Sites/test.ru/sass/style.sass */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  border: solid green;
+  border-radius: 30px;
+  color: green;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.5s all;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* line 41, ../../../../../../../../../../../../../Users/vladimirkorobskij/Desktop/Sites/test.ru/sass/style.sass */
+.box:hover {
+  color: white;
+  background-color: green;
+  border: solid white;
+  width: 310px;
+  height: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */
